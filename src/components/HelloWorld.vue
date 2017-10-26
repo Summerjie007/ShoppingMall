@@ -380,12 +380,7 @@ export default {
     Banner
   },
   created() {
-      // http://www.yiguo.com/Handler/InitLayOut?r=0.4733571856908836&_=1508901898801
-    this.api.InitLayOut({
-      r: 0.4733571856908836
-    }).then(res => {
-      console.log(res);
-    })
+    
   }
 }
 </script>
